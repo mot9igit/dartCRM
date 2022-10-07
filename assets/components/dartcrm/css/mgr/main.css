@@ -1,0 +1,96 @@
+/* Grid */
+.dartcrm-dartcrm-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.dartcrm-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.dartcrm-row-actions li { float: left; }
+ul.dartcrm-row-actions .dartcrm-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.dartcrm-row-actions .actions-menu { width: 40px; }
+ul.dartcrm-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.dartcrm-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.dartcrm-btn:focus, .dartcrm-btn:active:focus, .dartcrm-btn.active:focus, .dartcrm-btn.focus, .dartcrm-btn:active.focus, .dartcrm-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.dartcrm-btn:hover, .dartcrm-btn:focus, .dartcrm-btn.focus { color: #333; text-decoration: none }
+.dartcrm-btn:active, .dartcrm-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.dartcrm-btn.disabled, .dartcrm-btn[disabled], fieldset[disabled] .dartcrm-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.dartcrm-btn.disabled, fieldset[disabled] a.dartcrm-btn { pointer-events: none }
+.dartcrm-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.dartcrm-btn-default:focus, .dartcrm-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.dartcrm-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.dartcrm-btn-default:active, .dartcrm-btn-default.active, .open > .dropdown-toggle.dartcrm-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.dartcrm-btn-default:active:hover, .dartcrm-btn-default.active:hover, .open > .dropdown-toggle.dartcrm-btn-default:hover, .dartcrm-btn-default:active:focus, .dartcrm-btn-default.active:focus, .open > .dropdown-toggle.dartcrm-btn-default:focus, .dartcrm-btn-default:active.focus, .dartcrm-btn-default.active.focus, .open > .dropdown-toggle.dartcrm-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.dartcrm-btn-default:active, .dartcrm-btn-default.active, .open > .dropdown-toggle.dartcrm-btn-default { background-image: none }
+.dartcrm-btn-default.disabled:hover, .dartcrm-btn-default[disabled]:hover, fieldset[disabled] .dartcrm-btn-default:hover, .dartcrm-btn-default.disabled:focus, .dartcrm-btn-default[disabled]:focus, fieldset[disabled] .dartcrm-btn-default:focus, .dartcrm-btn-default.disabled.focus, .dartcrm-btn-default[disabled].focus, fieldset[disabled] .dartcrm-btn-default.focus { background-color: #fff; border-color: #ccc }
+.dartcrm-btn-default .badge { color: #fff; background-color: #333 }
+.dartcrm-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.dartcrm-btn-primary:focus, .dartcrm-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.dartcrm-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.dartcrm-btn-primary:active, .dartcrm-btn-primary.active, .open > .dropdown-toggle.dartcrm-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.dartcrm-btn-primary:active:hover, .dartcrm-btn-primary.active:hover, .open > .dropdown-toggle.dartcrm-btn-primary:hover, .dartcrm-btn-primary:active:focus, .dartcrm-btn-primary.active:focus, .open > .dropdown-toggle.dartcrm-btn-primary:focus, .dartcrm-btn-primary:active.focus, .dartcrm-btn-primary.active.focus, .open > .dropdown-toggle.dartcrm-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.dartcrm-btn-primary:active, .dartcrm-btn-primary.active, .open > .dropdown-toggle.dartcrm-btn-primary { background-image: none }
+.dartcrm-btn-primary.disabled:hover, .dartcrm-btn-primary[disabled]:hover, fieldset[disabled] .dartcrm-btn-primary:hover, .dartcrm-btn-primary.disabled:focus, .dartcrm-btn-primary[disabled]:focus, fieldset[disabled] .dartcrm-btn-primary:focus, .dartcrm-btn-primary.disabled.focus, .dartcrm-btn-primary[disabled].focus, fieldset[disabled] .dartcrm-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.dartcrm-btn-primary .badge { color: #337ab7; background-color: #fff }
+.dartcrm-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.dartcrm-btn-success:focus, .dartcrm-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.dartcrm-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.dartcrm-btn-success:active, .dartcrm-btn-success.active, .open > .dropdown-toggle.dartcrm-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.dartcrm-btn-success:active:hover, .dartcrm-btn-success.active:hover, .open > .dropdown-toggle.dartcrm-btn-success:hover, .dartcrm-btn-success:active:focus, .dartcrm-btn-success.active:focus, .open > .dropdown-toggle.dartcrm-btn-success:focus, .dartcrm-btn-success:active.focus, .dartcrm-btn-success.active.focus, .open > .dropdown-toggle.dartcrm-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.dartcrm-btn-success:active, .dartcrm-btn-success.active, .open > .dropdown-toggle.dartcrm-btn-success { background-image: none }
+.dartcrm-btn-success.disabled:hover, .dartcrm-btn-success[disabled]:hover, fieldset[disabled] .dartcrm-btn-success:hover, .dartcrm-btn-success.disabled:focus, .dartcrm-btn-success[disabled]:focus, fieldset[disabled] .dartcrm-btn-success:focus, .dartcrm-btn-success.disabled.focus, .dartcrm-btn-success[disabled].focus, fieldset[disabled] .dartcrm-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.dartcrm-btn-success .badge { color: #5cb85c; background-color: #fff }
+.dartcrm-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.dartcrm-btn-info:focus, .dartcrm-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.dartcrm-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.dartcrm-btn-info:active, .dartcrm-btn-info.active, .open > .dropdown-toggle.dartcrm-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.dartcrm-btn-info:active:hover, .dartcrm-btn-info.active:hover, .open > .dropdown-toggle.dartcrm-btn-info:hover, .dartcrm-btn-info:active:focus, .dartcrm-btn-info.active:focus, .open > .dropdown-toggle.dartcrm-btn-info:focus, .dartcrm-btn-info:active.focus, .dartcrm-btn-info.active.focus, .open > .dropdown-toggle.dartcrm-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.dartcrm-btn-info:active, .dartcrm-btn-info.active, .open > .dropdown-toggle.dartcrm-btn-info { background-image: none }
+.dartcrm-btn-info.disabled:hover, .dartcrm-btn-info[disabled]:hover, fieldset[disabled] .dartcrm-btn-info:hover, .dartcrm-btn-info.disabled:focus, .dartcrm-btn-info[disabled]:focus, fieldset[disabled] .dartcrm-btn-info:focus, .dartcrm-btn-info.disabled.focus, .dartcrm-btn-info[disabled].focus, fieldset[disabled] .dartcrm-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.dartcrm-btn-info .badge { color: #5bc0de; background-color: #fff }
+.dartcrm-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.dartcrm-btn-warning:focus, .dartcrm-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.dartcrm-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.dartcrm-btn-warning:active, .dartcrm-btn-warning.active, .open > .dropdown-toggle.dartcrm-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.dartcrm-btn-warning:active:hover, .dartcrm-btn-warning.active:hover, .open > .dropdown-toggle.dartcrm-btn-warning:hover, .dartcrm-btn-warning:active:focus, .dartcrm-btn-warning.active:focus, .open > .dropdown-toggle.dartcrm-btn-warning:focus, .dartcrm-btn-warning:active.focus, .dartcrm-btn-warning.active.focus, .open > .dropdown-toggle.dartcrm-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.dartcrm-btn-warning:active, .dartcrm-btn-warning.active, .open > .dropdown-toggle.dartcrm-btn-warning { background-image: none }
+.dartcrm-btn-warning.disabled:hover, .dartcrm-btn-warning[disabled]:hover, fieldset[disabled] .dartcrm-btn-warning:hover, .dartcrm-btn-warning.disabled:focus, .dartcrm-btn-warning[disabled]:focus, fieldset[disabled] .dartcrm-btn-warning:focus, .dartcrm-btn-warning.disabled.focus, .dartcrm-btn-warning[disabled].focus, fieldset[disabled] .dartcrm-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.dartcrm-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.dartcrm-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.dartcrm-btn-danger:focus, .dartcrm-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.dartcrm-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.dartcrm-btn-danger:active, .dartcrm-btn-danger.active, .open > .dropdown-toggle.dartcrm-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.dartcrm-btn-danger:active:hover, .dartcrm-btn-danger.active:hover, .open > .dropdown-toggle.dartcrm-btn-danger:hover, .dartcrm-btn-danger:active:focus, .dartcrm-btn-danger.active:focus, .open > .dropdown-toggle.dartcrm-btn-danger:focus, .dartcrm-btn-danger:active.focus, .dartcrm-btn-danger.active.focus, .open > .dropdown-toggle.dartcrm-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.dartcrm-btn-danger:active, .dartcrm-btn-danger.active, .open > .dropdown-toggle.dartcrm-btn-danger { background-image: none }
+.dartcrm-btn-danger.disabled:hover, .dartcrm-btn-danger[disabled]:hover, fieldset[disabled] .dartcrm-btn-danger:hover, .dartcrm-btn-danger.disabled:focus, .dartcrm-btn-danger[disabled]:focus, fieldset[disabled] .dartcrm-btn-danger:focus, .dartcrm-btn-danger.disabled.focus, .dartcrm-btn-danger[disabled].focus, fieldset[disabled] .dartcrm-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.dartcrm-btn-danger .badge { color: #d9534f; background-color: #fff }
+.dartcrm-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.dartcrm-btn-link, .dartcrm-btn-link:active, .dartcrm-btn-link.active, .dartcrm-btn-link[disabled], fieldset[disabled] .dartcrm-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.dartcrm-btn-link, .dartcrm-btn-link:hover, .dartcrm-btn-link:focus, .dartcrm-btn-link:active { border-color: transparent }
+.dartcrm-btn-link:hover, .dartcrm-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.dartcrm-btn-link[disabled]:hover, fieldset[disabled] .dartcrm-btn-link:hover, .dartcrm-btn-link[disabled]:focus, fieldset[disabled] .dartcrm-btn-link:focus { color: #777; text-decoration: none }
+.dartcrm-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.dartcrm-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.dartcrm-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.dartcrm-btn-block { display: block; width: 100% }
+.dartcrm-btn-block + .dartcrm-btn-block { margin-top: 5px }

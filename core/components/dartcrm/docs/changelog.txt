@@ -1,0 +1,9 @@
+Changelog for dartCRM.
+
+0.0.2-beta
+==============
+- Bug fixes
+
+0.0.1-beta
+==============
+- Initial release

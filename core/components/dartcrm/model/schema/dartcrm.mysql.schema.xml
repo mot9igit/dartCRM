@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model package="dartcrm" baseClass="xPDOObject" platform="mysql" defaultEngine="InnoDB" phpdoc-package="dartcrm"
+       version="1.1">
+
+    <object class="crmOrderLinks" table="dartcrm_order_links" extends="xPDOSimpleObject">
+        <field key="order_id" dbtype="int" precision="11" phptype="integer" null="false" default=""/>
+        <field key="crm_id" dbtype="varchar" precision="100" phptype="string" null="false" default=""/>
+
+        <index alias="order_id" name="order_id" primary="false" unique="false" type="BTREE">
+            <column key="order_id" length="" collation="A" null="false"/>
+        </index>
+        <index alias="crm_id" name="crm_id" primary="false" unique="false" type="BTREE">
+            <column key="crm_id" length="" collation="A" null="false"/>
+        </index>
+
+        <aggregate alias="Order" class="msOrder" local="order_id" foreign="id" cardinality="one" owner="foreign"/>
+    </object>
+
+    <object class="crmStatusLinks" table="dartcrm_status_links" extends="xPDOSimpleObject">
+        <field key="status_id" dbtype="int" precision="11" phptype="integer" null="false" default=""/>
+        <field key="crm_id" dbtype="varchar" precision="100" phptype="string" null="false" default=""/>
+
+        <index alias="status_id" name="status_id" primary="false" unique="false" type="BTREE">
+            <column key="status_id" length="" collation="A" null="false"/>
+        </index>
+        <index alias="crm_id" name="crm_id" primary="false" unique="false" type="BTREE">
+            <column key="crm_id" length="" collation="A" null="false"/>
+        </index>
+
+        <aggregate alias="Status" class="msOrderStatus" local="status_id" foreign="id" cardinality="one" owner="foreign"/>
+    </object>
+
+    <object class="crmProductLinks" table="dartcrm_product_links" extends="xPDOSimpleObject">
+        <field key="product_id" dbtype="int" precision="11" phptype="integer" null="false" default=""/>
+        <field key="crm_id" dbtype="varchar" precision="100" phptype="string" null="false" default=""/>
+
+        <index alias="product_id" name="product_id" primary="false" unique="false" type="BTREE">
+            <column key="product_id" length="" collation="A" null="false"/>
+        </index>
+        <index alias="crm_id" name="crm_id" primary="false" unique="false" type="BTREE">
+            <column key="crm_id" length="" collation="A" null="false"/>
+        </index>
+
+        <aggregate alias="Product" class="msProduct" local="product_id" foreign="id" cardinality="one" owner="foreign"/>
+    </object>
+
+    <object class="crmFields" table="dartcrm_fields" extends="xPDOSimpleObject">
+        <field key="crm" dbtype="int" precision="11" phptype="integer" null="false" default=""/>
+        <field key="crm_id" dbtype="int" precision="11" phptype="integer" null="false" default=""/>
+        <field key="field" dbtype="varchar" precision="100" phptype="string" null="false" default=""/>
+        <field key="name" dbtype="varchar" precision="100" phptype="string" null="false" default=""/>
+        <field key="type" dbtype="int" precision="11" phptype="integer" null="false" default=""/>
+        <field key="code" dbtype="varchar" precision="255" phptype="string" null="false" default=""/>
+        <field key="enums" dbtype="text" phptype="string" null="true"/>
+        <field key="active" dbtype="tinyint" precision="1" attributes="unsigned" phptype="integer" null="true" default="1"/>
+        <field key="properties" dbtype="text" phptype="string" null="true"/>
+
+        <index alias="field" name="field" primary="false" unique="false" type="BTREE">
+            <column key="field" length="" collation="A" null="false"/>
+        </index>
+        <index alias="name" name="name" primary="false" unique="false" type="BTREE">
+            <column key="name" length="" collation="A" null="false"/>
+        </index>
+        <index alias="active" name="active" primary="false" unique="false" type="BTREE">
+            <column key="active" length="" collation="A" null="false"/>
+        </index>
+        <index alias="crm" name="crm" primary="false" unique="false" type="BTREE">
+            <column key="crm" length="" collation="A" null="false"/>
+        </index>
+        <index alias="crm_id" name="crm_id" primary="false" unique="false" type="BTREE">
+            <column key="crm_id" length="" collation="A" null="false"/>
+        </index>
+    </object>
+
+</model>
